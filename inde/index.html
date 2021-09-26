@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning javascript</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 id="id1" class="classs1">
+      this is how i learn javascript
+      <!-- This is a comment -->
+    </h1>
+    <div id="id2">
+      <h1>This is an id</h1>
+      <button class="btn-1">Click Me</button>
+    </div>
+    <p id="geek">
+      Hello
+      <span>World</span>
+    </p>
+
+    <div class="container">
+      <p>This is anathor para</p>
+      <header>
+        <!-- comment -->
+        <span>This is a span</span>
+      </header>
+      <section></section>
+      <footer></footer>
+    </div>
+
+  <div class="prop"></div>
+
+    <!-- Event binding with html -->
+
+    <button onclick="Show();">Event binding with html</button>
+
+    <!-- Event binding with javascript -->
+
+    <button id="btn1">Event binding with javascript</button>
+
+    <script>
+      function Show() {
+        alert("Event binding with html");
+      }
+      const btn1 = document.getElementById("btn1");
+      btn1.onclick = show;
+      function show() {
+        alert("Event binding with javascript");
+      }
+    </script>
+    <!-- <script src="./app.js"></script> -->
+    <!-- <script src="./ElementAccess.js"></script> -->
+    <!-- <script src="./CreatingElement.js"></script> -->
+    <script src="./Events.js"></script>
+  </body>
+</html>

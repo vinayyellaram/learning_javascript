@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: grid;   
+    background: red;
+    
+}
+
+header{
+   
+    background-color: yellow;
+    padding: 10px;
+}
+section{
+  
+    background-color: rgb(25, 0, 255);
+    padding: 10px;
+}
+footer{
+ 
+    background-color: rgb(255, 0, 191);
+    padding: 10px;
+}
